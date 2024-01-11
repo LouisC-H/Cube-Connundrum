@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-11T15:43:26.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="vCmEmeeyOMeKpp4kKxpq" version="22.0.0" type="device">
+<mxfile host="Electron" modified="2024-01-11T16:39:02.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="WsBSUyiwK7M9NIV_m0UW" version="22.0.0" type="device">
   <diagram name="Page-1" id="vqjAzrfxEGKw4viCECDy">
-    <mxGraphModel dx="989" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,6 +102,109 @@
         </mxCell>
         <mxCell id="XqE2a7MelFlq-JSurqiv-34" value="Warning" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="160" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-35" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Part 2:&lt;/li&gt;&lt;li&gt;Each line is valid&lt;/li&gt;&lt;li&gt;For each line, find the minimum number of greens, reds and blues&lt;/li&gt;&lt;li&gt;Return the multiple of the three&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-36" value="&amp;nbsp;For each &lt;br&gt;&amp;nbsp;number-colour &lt;br&gt;&amp;nbsp;pair:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="980" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-38" target="XqE2a7MelFlq-JSurqiv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-38" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-40" target="XqE2a7MelFlq-JSurqiv-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="579" y="860" />
+              <mxPoint x="579" y="862" />
+              <mxPoint x="578" y="862" />
+              <mxPoint x="578" y="861" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-40" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.997;exitY=0.711;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-42" target="XqE2a7MelFlq-JSurqiv-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1341" y="860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-42" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="660" width="800" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-43" value="Read ID Number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-44" value="Add to&lt;br&gt;rolling sum of numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1221" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-45" value="Print rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1420" y="820" width="82.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-47" target="XqE2a7MelFlq-JSurqiv-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-47" value="Isolate number - colour pairs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="780" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-50" target="XqE2a7MelFlq-JSurqiv-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-50" value="Identify colour" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="940" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-52" target="XqE2a7MelFlq-JSurqiv-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-52" target="XqE2a7MelFlq-JSurqiv-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="950" />
+              <mxPoint x="910" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-52" target="XqE2a7MelFlq-JSurqiv-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="910" />
+              <mxPoint x="950" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-52" value="If the number is higher than minColour, increase the min to that number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=11;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-54" target="XqE2a7MelFlq-JSurqiv-44">
+          <mxGeometry x="-0.17" relative="1" as="geometry">
+            <mxPoint x="1260" y="860" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-54" value="Multiply the three minColours" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1060" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-57" target="XqE2a7MelFlq-JSurqiv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-57" value="Create a rolling sum int, set to 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-59" target="XqE2a7MelFlq-JSurqiv-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-59" target="XqE2a7MelFlq-JSurqiv-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="XqE2a7MelFlq-JSurqiv-59" target="XqE2a7MelFlq-JSurqiv-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqE2a7MelFlq-JSurqiv-59" value="Create three integers, minRed, minBlue, minGreen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="890" y="700" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
